@@ -1,0 +1,27 @@
+{
+  "name": "unifire.github.io",
+  "version": "1.0.0",
+  "description": "Unifirejs documentation site.",
+  "source": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:deploy": "sh docs/deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unifirejs/unifire.github.io.git"
+  },
+  "author": "jpodwys",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unifirejs/unifire.github.io/issues"
+  },
+  "homepage": "https://github.com/unifirejs/unifire.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^1.5.0"
+  }
+}
