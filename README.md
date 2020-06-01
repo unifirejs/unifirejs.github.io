@@ -2,6 +2,8 @@
 
 This is the docs site for Unifire. This repo's default branch is `gh-pages` as github pages pulls from the master branch for root-level github.io projects.
 
+Please submit any merge requests to the `gh-pages` branch.
+
 ## Install
 
 `yarn`
