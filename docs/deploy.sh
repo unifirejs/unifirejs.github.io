@@ -6,14 +6,8 @@ set -e
 # build
 npm run docs:build
 
-# navigate into the build output directory
-cd docs/.vuepress/dist
-
 git init
 git add -A
 git commit -m 'deploy'
 
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/unifirejs/unifire master:gh-pages
-
-cd -
+git push -f https://github.com/unifirejs master:gh-pages
