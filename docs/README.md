@@ -7,7 +7,7 @@ Unifire is a state management solution that's tiny, efficient, capable, and easy
 * __Tiny__ 400 (brotli-compressed) bytes. No dependencies.
 * __Simple__ Including the constructor, Unifire has five public methods and one public property.
 * __Efficient__ Unifire only calls a subscriber when one of its dependencies changes.
-* __Derived State__ Store-level computed properties have never been this easy.
+* __Derived State__ Store-level computed properties have never been easier.
 * __Unopinionated Actions__ Combine sync and async mutations in a single action. Unifire will call the right subscribers at the right time, batched as efficiently as possible.
 * __Code Splitting__ Register additional store modules at runtime.
 * __Framework-Agnostic__ Unifire works with anything. See the Integrations docs for pre-made framwork integrations.
