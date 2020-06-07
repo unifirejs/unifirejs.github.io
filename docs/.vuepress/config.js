@@ -3,7 +3,7 @@ module.exports = {
     logo: '/unifire-logo.png',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Github', link: 'https://github.com/unifirejs/unifire' }
+      { text: 'Github', link: 'https://github.com/unifirejs' }
     ],
     sidebar: [
       {
@@ -25,7 +25,14 @@ module.exports = {
           '/core/subscribers/',
           '/core/listeners/',
           '/core/lazy/',
-          '/core/composition/'
+        ]
+      },
+      {
+        title: 'Additional Concepts',
+        collapsable: false,
+        children: [
+          '/additional/composition/',
+          '/additional/testing/'
         ]
       },
       // {

@@ -34,3 +34,7 @@ In this case, Unifire will not immediately execute the provided subscriber metho
 const unsubscribe = store.subscribe(...);
 unsubscribe();
 ```
+
+### Timing
+
+Unifire batches synchronous, sequential state mutations to optimize component redraws. This means that Unifire applies state mutations synchronously and calls subscribers asynchronously. The result is that you cannot expect a subscriber to have been called immediately after making a state change that will trigger that subscriber. See the [Writing Tests](/additional/testing/#subscribers-are-called-asynchronously) docs for how to handle subscriber asynchronicity.

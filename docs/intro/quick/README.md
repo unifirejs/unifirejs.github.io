@@ -60,13 +60,13 @@ const actions = {
 };
 ```
 
-To subscribe to changes to specific state properties, call `store.subscribe`.
+To run a callback when specific state properties change, call `store.subscribe`.
 
 ```js
 store.subscribe(({ count }) => console.log('count', count));
 ```
 
-To subscribe to all state changes, call `store.listen`.
+To run a callback on every state change, call `store.listen`.
 
 ```js
 store.listen((state) => console.log('change', state));
